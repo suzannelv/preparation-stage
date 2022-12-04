@@ -1,0 +1,29 @@
+body{
+  background-image: url(https://img.freepik.com/photos-gratuite/arrangement-cubes-lettre-espace-copie_23-2148689399.jpg?w=2000&t=st=1670090959~exp=1670091559~hmac=e341d58a025011524d84c8b986cd440cac0116fd3ea343ae5e72c942babbb07b);
+  background-repeat: no-repeat;
+  background-size:cover;
+  color:rgb(215, 212, 208)
+  
+}
+a {
+  text-decoration: none;
+}
+.nav {
+  --bs-breadcrumb-divider: '>';
+  color: antiquewhite;
+}
+.lettre {
+  margin-top: 50px;
+}
+.content {
+  width: 1200px;
+}
+.content p {
+  margin-top: 20px;
+  /* margin-left: 10px; */
+  font-size: 26px;
+  font-weight: 500;
+  text-align:justify;
+  
+ 
+}

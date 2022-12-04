@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/CSS/loisir.css">
+  <title>Mes loisirs</title>
+</head>
+<body class="bg-light">
+
+<section id="navigator">
+  <nav class="container navbar bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">Mes loisir </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#knitting">Mes tricots</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#paint">Mes peintures</a>
+              </li>
+            
+            </ul>
+          
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+    
+<section class="container py-5 mt-5 bg-black text-light">
+  <div class="row">
+    <h2 class="my-3">Ma première vidéo faite par Premiere</h2>
+    <div class="col">
+      <video src="./images/mon_video.mp4" muted loop autoplay class="ms-3"></video> 
+    </div>
+    <p class="fst-italic">Source: Mixfit</p>
+
+    <div class="col text">
+        <h2 class="text-uppercase fw-bold display-3">Il n'est jamais trop tard  </h2>
+        <h3 class="text-uppercase fw-bold mt-5 ms-5 display-4">pour faire ce que vous voulez</h3>   
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container text-center gallery-tricot">
+    <h2 class="fw-semibold mt-5"><i class="fa-solid fa-cat me-2"></i>Tricots</h2>
+    <div class="line"></div>
+    <div id="knitting" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col mt-5">
+        <div class="card shadow-sm">
+          <img src="./images/tricot/chien.jpg" alt="" class="img-fluid rounded mx-auto d-block">
+          <div class="card-body">
+            <button class="card-text border-0 rounded-pill text-light fw-semibold"> Loulou</button>
+              <p class="text-center mt-4">Temps de fabrication: 7h</p>
+              <div class="min-line"></div>
+              <div class="min-line-1"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mt-5">
+          <div class="card shadow-sm">
+            <img src="./images/tricot/Chopper.jpg" alt="" class="img-fluid rounded mx-auto d-block">
+            <div class="card-body">
+              <button class="card-text border-0 rounded-pill text-light fw-semibold"> Chopper</button>
+                <p class="text-center mt-4">Temps de fabrication:7h</p>
+                <div class="min-line"></div>
+                <div class="min-line-1"></div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col right mt-5">
+            <div class="card shadow-sm">
+              <img src="./images/tricot/mouton.jpg" alt="" class="img-fluid rounded mx-auto d-block">
+              <div class="card-body">
+                <button class="card-text border-0 rounded-pill text-light fw-semibold">Miemie</button>
+                  <p class="text-center mt-4">Temps de fabrication: 2h</p>
+                  <div class="min-line"></div>
+                  <div class="min-line-1"></div>
+                </div>
+              </div>
+            </div>
+
+            
+
+            <div class="col mt-5">
+              <div class="card shadow-sm">
+                <img src="./images/tricot/porcinet.jpg" alt="" class="rounded mx-auto d-block">
+                <div class="card-body">
+                  <button class="card-text border-0 rounded-pill text-light fw-semibold">Porcinet</button>
+                    <p class="text-center mt-4">Temps de fabrication: 3h</p>
+                    <div class="min-line"></div>
+                    <div class="min-line-1"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mt-5">
+                <div class="card shadow-sm">
+                  <img src="./images/tricot/winnie.jpg" alt="" class="img-fluid rounded mx-auto d-block">
+                  <div class="card-body">
+                    <button class="card-text border-0 rounded-pill text-light fw-semibold">Winnie</button>
+                      <p class="text-center mt-4">Temps de fabrication: 3h</p>
+                      <div class="min-line"></div>
+                      <div class="min-line-1"></div>
+                    </div>
+                  </div>
+                </div>
+              <div class="col mt-5">
+                <div class="card shadow-sm">
+                  <img src="./images/tricot/couple.jpg" alt="" class="img-fluid rounded mx-auto d-block">
+                  <div class="card-body">
+                    <button class="card-text border-0 rounded-pill text-light fw-semibold">Petite bonheure</button>
+                      <p class="text-center mt-4">Temps de fabrication: 4h</p>
+                      <div class="min-line"></div>
+                      <div class="min-line-1"></div>
+                    </div>
+                  </div>
+                </div>
+      </div>
+  </div>
+
+</section>
+
+
+<!-- section peinture -->
+<section id="paint">
+<div class="container text-center">
+  <!-- titire peinture -->
+    <h2 class="fw-semibold mt-5"><i class="fa-solid fa-palette me-2"></i>Peintures</h2>
+    <div class="line"></div>
+
+<!-- images peinture -->
+    <div class="row" data-masonry='{"percentPosition": true }'>
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card">
+          <img src="./images/peinture/couler_soleil.jpg" alt="peinture_le coucher du soleil" class="img-fluid">
+  
+          <div class="card-body">
+            <h5 class="card-title">Coucher de soleilde d'hiver</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card p-3">
+          <figure class="p-3 mb-0">
+            <blockquote class="blockquote">
+              <p>"La danse est une façon de vivre, la danse est le rythme de la vie."</p>
+            </blockquote>
+            <figcaption class="blockquote-footer mb-0 text-muted">
+              Samuel Lewis
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card">
+          <img src="./images/peinture/danseuse.jpg" alt="peinture-danseuse" class="img-fluid">
+  
+          <div class="card-body">
+            <h5 class="card-title">Danseuse en robe rouge</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card text-center p-3">
+          <figure class="mb-0">
+            <blockquote class="blockquote">
+              <p>“La vieillesse embellit tout : elle a l'effet du soleil couchant dans les beaux arbres d'octobre.” </p>
+            </blockquote>
+            <figcaption class="blockquote-footer mb-0 text-secondary">
+              Maurice Chapelan sur Soleil
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card">
+          <img src="./images/peinture/tete_or.jpg" alt="peinture-parc-tête-d'or" class="img-fluid">
+  
+          <div class="card-body">
+            <h5 class="card-title">Lac du parc tête d'or</h5>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card p-3 text-end">
+          <figure class="mb-0">
+            <blockquote class="blockquote">
+              <p>"La rivière du temps chronologique se perd dans le temps de l'art, sans aval, sans amont, comme dans un lac aux rives inconnues."</p>
+            </blockquote>
+            <figcaption class="blockquote-footer mb-0 text-muted">
+              André Malraux
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card">
+          <img src="./images/peinture/montagne.jpg" alt="peinture_montagne" class="img-fluid">
+  
+          <div class="card-body">
+            <h5 class="card-title">Montagne en neige</h5>
+          </div>
+        </div>
+      </div>
+
+
+      
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card p-3">
+          <figure class="p-3 mb-0">
+            <blockquote class="blockquote">
+              <p>"La passion s'ouvre comme une fleur et se referme sur notre coeur."</p>
+            </blockquote>
+            <figcaption class="blockquote-footer mb-0 text-muted">
+              Sonia Lahsaini
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card">
+          <img src="./images/peinture/fleur.jpg" alt="peinture_montagne" class="img-fluid">
+  
+          <div class="card-body">
+            <h5 class="card-title">Fleur abstraite</h5>
+          </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+
+</section>
+<!-- bouton pour retourner au top -->
+<div class="d-flex justify-content-end">
+  <button class="btn btn-secondary " type="button"><a href="#navigator"><i class="fa-solid fa-arrow-up text-light"></i></a></button>
+</div>
+
+
+<!-- footer -->
+
+<div class="container">
+  <footer class="py-3 my-4">
+    <div class="display-3 fw-semibold text-uppercase text-end">A suivre...</div>
+    <p class="text-center text-muted">&copy; 2022 fait par MJL, Villeurbanne</p>
+  </footer>
+</div>
+
+
+
+
+
+
+  <script src="./assets/JS/bootstrap.bundle.min.js"></script>
+  <script src="./assets/JS/loisir.js"></script>
+  <script src="./assets/JS/index.js"></script>
+</body>
+</html>

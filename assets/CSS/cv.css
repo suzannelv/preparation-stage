@@ -1,0 +1,89 @@
+
+a{
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
+
+body{
+  background-image: url(https://img.freepik.com/photos-gratuite/fond-papier-peint_53876-25244.jpg?w=1800&t=st=1670071668~exp=1670072268~hmac=a22fe1a68f25f919c440b1c1d7de0655c639d94103e74eb4d2d30177fe6f46dd);
+  background-size: cover;
+}
+section{ 
+   width: 1200px;
+   margin: 20px auto;
+
+}
+.nav {
+   --bs-breadcrumb-divider: '>';
+   color: antiquewhite;
+ }
+
+/* section top: profil_photo et présentation brève */
+.top{
+   /* position: relative; */
+   height: 500px;
+}
+
+.top .presentation {
+  margin-top: 200px;
+}
+
+.profil .text{
+
+   left: 700px;
+   top:30px;
+   font-size:14px;
+   width: 400px;
+   color:white;
+   line-height: 1.5em;
+}
+.profil img{
+
+   left:850px;
+   top:200px;
+   width: 350px;
+   height: 420px;
+   box-shadow: 5px 5px 16px black;
+}
+
+
+/* bottom */
+.bottom{
+   display: flex;
+   font-size: 20px;
+   background-color: white;
+   line-height: 2em;
+}
+
+.line {
+   width: 60px;
+   height: 4px;
+   background-color: #1b1b1d;
+   margin:16px auto 24px 10px;
+}
+
+.bottom li {
+   margin-left: -40px;
+}
+
+.bottom .margin-top {
+   margin-top:130px;
+}
+
+/* experiences professionnelle */
+
+.experience h2 {
+   padding-top: 40px;
+  
+}
+.experience li {
+   font-size: 20px;
+}
+
+
+
+
+
+

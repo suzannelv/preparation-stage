@@ -1,0 +1,34 @@
+
+.line {
+  width:200px;
+  height:8px ;
+  border-radius: 5px;
+  background-color: darkgoldenrod;
+  margin:16px auto 24px auto;
+}
+img {
+  width: 419px;
+  height: 559px;
+}
+.card-text {
+  background-color: lightseagreen;
+}
+
+.min-line {
+  width:200px;
+  height:8px ;
+  border-top-right-radius: 30%;
+  border-bottom-right-radius:30%;
+  background-color: darksalmon;
+  margin:16px auto 24px 70px;
+}
+.min-line-1 {
+  width:80px;
+  height:8px ;
+  border-top-right-radius: 40%;
+  border-bottom-right-radius:40%;
+  background-color: darksalmon;
+  margin:-60px auto 24px 50px;
+  transform: rotate(-90deg);
+}
+
