@@ -6,12 +6,10 @@
   background-color: darkgoldenrod;
   margin:16px auto 24px auto;
 }
-img {
+.photo-tricot {
   width: 419px;
   height: 559px;
-}
-.card-text {
-  background-color: lightseagreen;
+  object-fit: contain;
 }
 
 .min-line {
