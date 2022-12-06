@@ -1,4 +1,6 @@
-
+body {
+  background-color: rgb(242, 231, 216);
+}
 .line {
   width:200px;
   height:8px ;
@@ -28,5 +30,9 @@
   background-color: darksalmon;
   margin:-60px auto 24px 50px;
   transform: rotate(-90deg);
+}
+
+.btn-knitting {
+  background-color: darkcyan;
 }
 

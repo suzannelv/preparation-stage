@@ -13,12 +13,17 @@ a {
 /* page d'accueil */
 #principal_page {
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5); 
-  width:100vw;
+  /* width:100vw;
   height:100vh;
   background-image: url(https://img.freepik.com/photos-gratuite/flou-luxe-abstrait-degrade-gris-fonce-noir-utilise-comme-mur-studio-arriere-plan-pour-afficher-vos-produits-fond-studio-uni_1258-54444.jpg?w=2000&t=st=1670169952~exp=1670170552~hmac=cf932dba08ef7b4ad96828ccae93c15f5346c585b8a6a3baf1aa47a599506030);
   border-radius: 5%;
-  background-size: cover;
+  background-size: cover; */
+  background-color: rgb(212, 195, 199);
  
+}
+
+.btn-cv {
+  background-color: cadetblue;
 }
 
 #principal_page h1 {
