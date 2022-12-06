@@ -1,18 +1,14 @@
-/* body {
-  background-image: url(/images/fond-papier-peint.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 
-  
- 
-} */
 a {
   text-decoration: none;
 }
 .logo {
-  width: 30px;
-  height: 30px;
+  width: 80px;
+  height: auto;
+  margin-left:300px;
+}
+.navbar-nav {
+  padding-left: 100px;
 }
 /* page d'accueil */
 #principal_page {
@@ -21,14 +17,15 @@ a {
   height:100vh;
   background-image: url(https://img.freepik.com/photos-gratuite/flou-luxe-abstrait-degrade-gris-fonce-noir-utilise-comme-mur-studio-arriere-plan-pour-afficher-vos-produits-fond-studio-uni_1258-54444.jpg?w=2000&t=st=1670169952~exp=1670170552~hmac=cf932dba08ef7b4ad96828ccae93c15f5346c585b8a6a3baf1aa47a599506030);
   border-radius: 5%;
+  background-size: cover;
  
 }
 
-#principal_page .container h1 {
+#principal_page h1 {
   color: rgb(205, 193, 193);
   text-shadow: 0.1rem 0.2rem rgba(0, 0, 0, .5);
 }
-#principal_page .container h3 {
+#principal_page h3 {
   text-shadow: 0.05rem 0.02rem rgba(0, 0, 0, .5);
 }
 
